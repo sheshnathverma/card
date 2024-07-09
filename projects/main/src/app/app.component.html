@@ -1,0 +1,11 @@
+<div>This is ticker from main : {{ store.ticker() }}</div>
+@if(store.ticker()%2 === 0) {
+<h1>Even</h1>
+} @else {
+<h1>Odd</h1>
+}
+<hr />
+<en8-enate-card />
+<hr />
+
+<div #placeHolder></div>
