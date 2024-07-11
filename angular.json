@@ -201,11 +201,11 @@
 						],
 						"styles": [
 							"projects/enate-card-compiler/src/styles.scss"
-						],
-						"scripts": []
+						]						
 					},
 					"configurations": {
 						"production": {
+							"outputPath": "dist/angular-basic",
 							"budgets": [
 								{
 									"type": "initial",
